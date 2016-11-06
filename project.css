@@ -1,9 +1,9 @@
-ul#list-nav li {
-  display:inline
+ul li {
+  display: inline;
 }
 
 ul#list-nav li a {
- text-decoration:none;
+ text-decoration: none;
  padding:5px 0;
  width:100px;
  background:#485e49;
