@@ -9,5 +9,9 @@ ul li a {
  background:#485e49;
  color:#eee;
  float:left;
+ text-align:center;
+ border-left:1px solid #fff;
 }
 
+
+ 
