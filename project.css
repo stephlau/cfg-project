@@ -2,7 +2,7 @@ ul li {
   display: inline;
 }
 
-ul#list-nav li a {
+ul li a {
  text-decoration: none;
  padding:5px 0;
  width:100px;
@@ -10,3 +10,4 @@ ul#list-nav li a {
  color:#eee;
  float:left;
 }
+
