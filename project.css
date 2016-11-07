@@ -1,21 +1,29 @@
-ul li {
-  display: inline;
+body {
+    font-family: 'Play', sans-serif;
+    margin: 0 auto;
 }
-
-ul li a {
- text-decoration: none;
- padding:5px 0;
- width:100px;
- background:white;
- color:skyblue;
- float:left;
- text-align:center;
- border-left:1px solid #fff;
+h1 {
+    font-size: 70px;
 }
-
-ul li a:hover {
-  background:#a2b3a1;
-  color:#000
+img {
+    margin: 5px 0px 0px 0px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
-
- 
+header {
+    text-align: center;
+    background: url("Users/User/Documents/Coding_course/cfg-project/dream_destination_1.jpeg");
+    background-size: cover;
+    color: #3399FF;
+}
+a {
+    color: white;
+}
+ul {
+    padding: 10px;
+    background: black;
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
