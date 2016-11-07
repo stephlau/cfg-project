@@ -13,9 +13,9 @@ ul li a {
  border-left:1px solid #fff;
 }
 
-ul li a hover {
+ul li a:hover {
   background:#a2b3a1;
-  color:black;
+  color:grey;
 }
 
 .navbar-custom {
