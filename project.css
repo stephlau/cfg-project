@@ -1,23 +1,3 @@
-ul li {
-  display: inline;
-}
-
-ul li a {
- text-decoration: none;
- padding:5px 0;
- width:100px;
- background:white;
- color:skyblue;
- float:left;
- text-align:center;
- border-left:1px solid #fff;
-}
-
-ul li a:hover {
-  background:#a2b3a1;
-  color:black;
-}
-
 .navbar-custom {
     background-color: #0d4279;
     border-color: #073366;
@@ -49,14 +29,6 @@ ul li a:hover {
     min-height: 50px;
     margin-bottom: 20px;
     border: 1px solid transparent;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-    display: block;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 article, aside, footer, header, hgroup, main, nav, section {
