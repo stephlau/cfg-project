@@ -4,25 +4,32 @@ body {
 }
 h1 {
     font-size: 70px;
+    color: black;
+    text-align:center;
 }
-
+header {
+    text-align: center;
+    background-size: cover;
+    color: #3399FF;
+}
+.width {
+    width: 70%;
+    margin: 0 auto;
+}
 img {
     margin: 5px 0px 0px 0px;
     border: 1px solid white;
     border-radius: 10px;
+    object-fit: contain;
 }
-header {
-    text-align: center;
-    background: url("Users/User/Documents/Coding_course/cfg-project/Images/dream_destination_1.jpeg");
-    background-size: cover;
-    color: #3399FF;
-}
+
 a {
     color: white;
 }
 ul {
     padding: 10px;
-    background: black;
+    background: #14638A;
+    text-decoration: none;
 }
 li {
     display: inline;
@@ -32,5 +39,5 @@ li {
 
 ul li a:hover {
   background:#a2b3a1;
-  color:grey;
+  color:#148A3B;
 }
