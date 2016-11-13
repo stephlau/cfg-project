@@ -1,11 +1,12 @@
 body {
-    font-family: 'Play', sans-serif;
+    font-family: 'Amatic SC', cursive;
     margin: 0 auto;
 }
 h1 {
     font-size: 70px;
     color: black;
     text-align:center;
+    font-family: 'Indie Flower', cursive;
 }
 header {
     text-align: center;
@@ -25,6 +26,8 @@ img {
 
 a {
     color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
 }
 ul {
     padding: 10px;
@@ -38,8 +41,8 @@ li {
 
 
 ul li a:hover {
-  background:#a2b3a1;
-  color:#148A3B;
+  background: white;
+  color: #3399FF;
 }
 #social-buttons button {
     color: white;
@@ -64,4 +67,8 @@ ul li a:hover {
     background-image: url('images/fruit-and-veg.jpg');
     background-size: cover;
     background-attachment: fixed;
+}
+
+.col-sm-4 {
+	display: inline-block;
 }
