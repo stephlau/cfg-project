@@ -10,6 +10,13 @@ h1 {
     font-family: 'Indie Flower', cursive;
     padding-top: 30px;
 }
+h2 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    padding-top: 30px;
+}
 header {
     text-align: center;
     background-size: cover;
