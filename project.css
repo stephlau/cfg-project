@@ -1,12 +1,14 @@
 body {
     font-family: 'Amatic SC', cursive;
     margin: 0 auto;
+	padding-top: 70px; 
 }
 h1 {
     font-size: 70px;
     color: black;
     text-align:center;
     font-family: 'Indie Flower', cursive;
+    padding-top: 30px;
 }
 header {
     text-align: center;
@@ -17,11 +19,13 @@ header {
     width: 70%;
     margin: 0 auto;
 }
+
 img {
     margin: 5px 0px 0px 0px;
     border: 1px solid white;
     border-radius: 10px;
     object-fit: contain;
+    display: inline;
 }
 
 a {
@@ -38,7 +42,6 @@ li {
     display: inline;
     padding: 0px 10px 0px 10px;
 }
-
 
 ul li a:hover {
   background: white;
@@ -69,6 +72,29 @@ ul li a:hover {
     background-attachment: fixed;
 }
 
-.col-sm-4 {
-	display: inline-block;
+.col-md-4 {
+    height: 100%;
+    width: 310px;
 }
+
+.img-responsive {
+	width: auto;
+	height: 310px;
+}
+
+.navbar {
+    position: fixed;
+    width: auto;
+    padding: 0;
+    margin: 0px;
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav li a, .nav li {
+        text-align: center;
+        display: inline-block;
+        min-width: 70px;
+
+
