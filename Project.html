@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head> 
 	<title>Descape</title>
-        <link rel="stylesheet" type="text/css" href="project.css">
-		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Ranga" rel="stylesheet">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script src="./js/jquery.bxslider.min.js"></script>
-        <link href="./js/jquery.bxslider.css" rel="stylesheet"/>
-        <script type="text/javascript">
+      <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+      <link rel="stylesheet" type="text/css" href="project.css">
+		  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Ranga" rel="stylesheet">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      <script src="./js/jquery.bxslider.min.js"></script>
+      <link href="./js/jquery.bxslider.css" rel="stylesheet"/>
+      <script type="text/javascript">
 			 $(document).ready(function(){
   				$('.bxslider').bxSlider();
   			});
  		</script> 
 </head>
 
-<body>
+<body> 
+<header id="header">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header"></div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="Project.html">Descape</a></li>
+            <li><a href="Snow.html">Snow</a></li>
+            <li><a href="Beach.html">Beach</a></li>
+            <li><a href="Forest.html">Forest</a></li>
+        </ul>
+    </div>
+</nav> 
+</header>
 
 	<h1>
-		Descape
+		<Strong>Where will you escape to?</Strong>
 	</h1>
 	<div class="width">
 	<ul class="bxslider">
@@ -29,26 +43,6 @@
   	</ul>
   	</div>
 
-  <header>
-	<ul> 
-
-	    <li>
-	    	<a href="project.html">Home</a>
-	    </li>
-
-	    <li>
-	    	<a href="Snow.html">Snow</a>
-	    </li>
-
-	    <li>
-	    	<a href="Beach.html">Beach</a>
-	    </li>
-
-	    <li>
-	    	<a href="Forest.html">Forest</a>
-	    </li>
-	</ul>
-   </header>
    <div id='social-buttons'>
     	<button class='btn btn-lg'>
       		<button class='btn-twitter'>Twitter</button>

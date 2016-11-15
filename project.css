@@ -7,8 +7,9 @@ h1 {
     font-size: 70px;
     color: black;
     text-align:center;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
     padding-top: 30px;
+    padding-bottom: 10px;
 }
 h2 {
     font-size: 40px;
@@ -17,14 +18,11 @@ h2 {
     font-family: 'Amatic SC', cursive;
     padding-top: 30px;
 }
-header {
-    text-align: center;
-    background-size: cover;
-    color: #3399FF;
-}
+
 .width {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
+    padding-top: 0px;
 }
 
 img {
@@ -42,7 +40,7 @@ a {
 }
 ul {
     padding: 10px;
-    background: #14638A;
+    background: #00284d;
     text-decoration: none;
 }
 li {
@@ -52,7 +50,7 @@ li {
 
 ul li a:hover {
   background: white;
-  color: #3399FF;
+  color: white;
 }
 #social-buttons button {
     color: white;
@@ -87,6 +85,8 @@ ul li a:hover {
 .img-responsive {
 	width: auto;
 	height: 310px;
+	margin: 0 auto;
+
 }
 
 .navbar {
@@ -97,11 +97,15 @@ ul li a:hover {
     padding-top: 0px;
     width: 100%;
     text-align: center;
+    background: #00284d;
 }
 
 .nav li a, .nav li {
         text-align: center;
         display: inline-block;
         min-width: 70px;
+}
 
-
+.bxslider {
+	background: white;
+}
